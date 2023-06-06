@@ -1,6 +1,7 @@
 import React from "react";
 import './styles_terceira.css';
 import imagem from '../image/seguranca.png';
+import { Link } from 'react-router-dom';
 
 function terceira(){
     return(
@@ -20,7 +21,10 @@ function terceira(){
                     <input type='password' placeholder='Criar senha' className='senha_terceira' required></input>
                 </div>
 
-                <button className="entrar_terceira"><strong>Entrar</strong></button>
+                <Link className="entrar_terceira" to="/intro">
+                    <strong>Entrar</strong>
+                </Link>
+                
             </div>
         </div>
     )

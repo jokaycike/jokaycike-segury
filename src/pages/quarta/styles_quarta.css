@@ -43,6 +43,90 @@
     justify-content: center;
     align-items:center ;
     text-align: center;
-    border-radius: 12%;
+    gap: 3em;
 }
 
+#dia{
+    border-radius: 2em;
+    padding: 2em 2.5em 2em 2.5em;
+    background-color: black;
+    border-color: black ;
+    color: white;
+    text-align: center;
+}
+
+#mes{
+    border-radius: 2em;
+    padding: 2em 1em 2em 1em ;
+    background-color: black;
+    border-color: black ;
+    color: white;
+    text-align: center;
+}
+
+#ano{
+    border-radius: 2em;
+    padding: 2em 2em 2em 2em;
+    background-color: black;
+    border-color: black ;
+    color: white;
+    text-align: center;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items:center ;   
+}
+
+#area_trabalho{
+    margin-top: 3em;
+    padding: 1em 2em 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+#genero{
+    margin-top: 2em;
+    padding: 1em 3em 1em 3em ;
+    border-radius: 1em;
+    text-align: center;
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+#termos{
+    margin-right: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31em;
+    margin-top: 1em;
+    border-color: transparent;
+}
+
+#entrar{
+    text-decoration: none;
+    text-align: center;
+    width: 20em;
+    padding: 0.9em;
+    border-radius: 0.5em;
+    margin: 1em;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+    border-color: transparent;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgb(255, 94, 0);
+    margin-left: 25em;
+    transition: transform 0.2s;
+    color:rgb(255, 255, 255);
+    position: absolute;
+}
+
+#entrar:hover{
+    transform:scale(1.2);
+}
